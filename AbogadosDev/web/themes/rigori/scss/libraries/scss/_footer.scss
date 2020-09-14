@@ -1,0 +1,110 @@
+
+.fa, .fas {
+  color:#3E3E3E;
+  font-size: 1.5rem;
+}
+.block-views-blockvista-footer-block-1{
+  width:100%;
+  
+
+}
+
+.fa-phone{
+  margin-right: 10px;
+}
+
+.site-footer{
+  background-color: #A5A5A6;
+  color:white;
+  a{
+    color: white;
+  }
+}
+
+.inner_footer_container{
+  align-items: center;
+  display: block;
+  padding: 2vw;
+}
+
+#logo_footer{
+  width: 100%;
+}
+
+
+.footer_column{
+  display: inline-flex;
+  align-items: center;
+  min-height: 340px;
+}
+
+
+.first_column{
+  justify-content: center;
+  align-items: center;
+  /*border-right: solid 2px #333333*/
+  
+}
+
+.second_column{
+
+}
+
+.third_column {
+  font-size: 2rem;
+  text-align: center;
+  p{
+    font-weight: 900;
+  }
+}
+
+.footer_contact{
+  div{
+    margin-top: 10px;
+  }
+  h1,h2,h3,h4,h5{
+    font-weight: 900;
+    display: inline-block;
+    
+  }
+
+  span{
+    font-weight: 700;
+    margin:20px 0;
+  }
+}
+
+.social_net_container{
+  display: block;
+  justify-content: center;
+
+  img{
+    width: 70%;
+  }
+
+  a{
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+.email_container{
+  p{
+    display: inline-block;
+  }
+
+}
+
+.telf_container{
+
+  margin-bottom: 30px;
+}
+
+.footer_copyright{
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.developer_brand{
+  text-align: center;
+}

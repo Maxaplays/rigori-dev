@@ -1,0 +1,68 @@
+$color-principal: #A5A5A6;
+$title-text-color: #3E3E3E;
+$color-border-title: $color-principal;
+
+.skip-link{
+	display:none;
+}
+
+body {
+        h1, h2, h3, h4, h5, h6, p, span{
+        color: $title-text-color;
+        }
+
+}
+
+@mixin viewFormat(){
+        margin-top: 1%;
+        padding: 0 9%;
+        h2{
+                padding: 0px 0px 1% 0px;
+                border-bottom: 7px solid $color-border-title;
+                display: inline-block;
+                margin-bottom: 0;
+        }
+}
+
+@mixin viewPagination{
+
+	nav{
+    
+    	h4{
+        	display:none;
+        }
+        
+		ul{
+			display:flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+
+}
+
+@mixin viewNodeTitle(){
+        margin-top: 1%;
+        padding: 0 9%;
+        div{
+                padding: 0px 0px 1% 0px;
+                border-bottom: 7px solid $color-border-title;
+                display: inline-block;
+                margin-bottom: 0;
+        }
+}
+
+
+
+$container-max-widths: (
+
+	xl:1250px
+
+);
+
+$theme-colors: (
+	"primary": $color-principal,
+	"secondary": white,
+	"success": #15426D,
+	"light":#706E6E
+)

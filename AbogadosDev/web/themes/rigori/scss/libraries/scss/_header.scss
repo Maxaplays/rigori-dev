@@ -1,0 +1,33 @@
+.header{
+
+	
+}
+
+.navbar{
+	position:fixed;
+	background-color: transparent!important;
+}
+
+#navbar-main {
+	transition: 400ms;
+}
+
+.header-collapse{
+	background-color: $color-principal !important;
+	transition: 400ms;
+
+	.nav-link{ 
+		color:rgba(255, 255, 255, 0.75)!important;
+	}
+
+}
+
+.logo {
+	padding: 0.5em;
+	transition:400ms;
+    max-width: 300px;
+}
+
+.nav-link{
+	color:rgba(100, 100, 100, 0.75);
+}

@@ -1,0 +1,34 @@
+$color-text-cards: white;
+$color-border-title: $color-principal;
+$color-background-text: rgba(0,0,0,0.45);
+
+.unformatted_view{
+	width:100%;
+}
+
+
+.background_hero{
+	background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-position: center center;
+    background-color: rgba(0,0,0,0.4);
+    h1, h2{
+    	color:white;
+    }
+    
+    h1{
+    	border-bottom: 2px solid $color-principal;
+    	display: inline-block;
+    }
+    
+    a{
+    	padding: 0.7em;
+        font-size: 1.5em;
+        margin-top: 2em;
+    }
+}
