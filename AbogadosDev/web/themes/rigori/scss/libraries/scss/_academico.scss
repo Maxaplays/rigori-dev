@@ -37,30 +37,37 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  min-height: 700px;
+  background-attachment: fixed;
 }
 .contenidoAreas {
-  @include viewFormat();
-  min-height: 500px;
+  height: 100%;
   h2 {
+    padding-top: 20px;
     justify-content: center;
     color: #3e3e3e;
     display: flex;
+    font-size: 25px;
   }
   img {
+    padding-top: 5px;
+    padding-bottom: 5px;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
   p {
-    text-align: center;
-    font-size: 25px;
+    text-align: justify;
+    font-size: 15px;
     color: #3e3e3e;
+    padding: 0px 20px 20px 20px;
   }
 }
 
 .containerMargin {
   background-color: lightgray;
+}
+.containerMarginCom {
+  background-color: white;
 }
 .row.no-gutters {
   margin-right: 0;
@@ -71,4 +78,8 @@
     padding-right: 0;
     padding-left: 0;
   }
+}
+.tituloMayorAcademico{
+  text-align: center;
+  padding: 20px 0px
 }

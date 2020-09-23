@@ -1,11 +1,13 @@
-<div class="container">
+<div class="container containerPerfil">
     <div class="row">
-        <div class="col d-none d-lg-block my-auto">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 imgPerfilContainer">
             <img class="imgPerfil"src="{{ content.field_img_perfil.0 }}">
         </div>
-        <div class="col container contenidoPerfil">
-            <h2 class="card-title">{{ content.field_titulo.0 }}</h2>
-            {{ content.field_body.0 }}
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 container contenidoPerfilContainer">
+            <div class="contenidoPerfil">
+                <h2 class="card-title perfilTitle">{{ content.field_titulo.0 }}</h2>
+                {{ content.field_body.0 }}
+            </div>
         </div>
     </div>
 </div>

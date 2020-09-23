@@ -3,7 +3,7 @@
     padding: 15px 0 15px 0;
     font-size: 20px;
   }
-  text-align: center;
+  text-align: justify;
 }
 
 .centrarContenido {
@@ -11,4 +11,29 @@
   justify-content: center;
   display: flex;
   @include viewFormat();
+  h2{
+    border-bottom: 2px solid #bb4e26;
+    margin-bottom: 30px;
+  }
+}
+
+.about_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 500px;
+  background:#adacac47;
+  margin: 30px 0;  
+
+}
+
+.about_content{
+  min-height: 512px;
+  padding:50px;
+}
+
+@media (max-width: 480px) {
+  .about_content{
+    padding:10px;
+  }
 }

@@ -1,0 +1,25 @@
+.background_hero_integrantes{
+	background-repeat: no-repeat;
+    background-size: 90%;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-position: center center;
+    background-color: rgba(0,0,0,0.4);
+    h1, h2{
+    	color:white;
+    }
+    
+    h1{
+    	border-bottom: 2px solid $color-principal;
+    	display: inline-block;
+    }
+    
+    a{
+    	padding: 0.7em;
+        font-size: 1.5em;
+        margin-top: 2em;
+    }
+}

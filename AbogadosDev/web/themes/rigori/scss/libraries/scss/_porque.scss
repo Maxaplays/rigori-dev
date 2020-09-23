@@ -1,0 +1,31 @@
+.imgCard{
+    height: 300px;
+    width: 350px;
+}
+.contenedorPorque{
+    height: 100%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.tituloPorque{
+display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 15px;
+padding-bottom: 15px;
+color: white;
+font-weight: 900;
+}
+.imgPorqueBack{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.subTituloPorque{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}

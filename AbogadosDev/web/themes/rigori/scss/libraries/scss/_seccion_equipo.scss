@@ -1,0 +1,31 @@
+.seccion_equipo_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 626px;
+    padding: 50px;
+    
+}
+.equipo_content_card{
+    border: none !important;
+    background: #adacac47;
+    max-width: 625px;
+}
+
+.equipo_body{
+    background: #adacac47;  
+}
+
+.equipo_title{
+    text-align: center;
+    font-weight: 900;
+}
+
+
+@media (max-width: 480px) {
+    .seccion_equipo_container{
+        padding: 10px;        
+    }
+  }
+  
+  

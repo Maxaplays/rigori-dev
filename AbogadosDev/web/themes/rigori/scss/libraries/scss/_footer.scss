@@ -24,7 +24,9 @@
 .inner_footer_container{
   align-items: center;
   display: block;
-  padding: 2vw;
+  text-align: center;
+  height: 100%;
+  padding-left: 40px;
 }
 
 #logo_footer{
@@ -35,7 +37,7 @@
 .footer_column{
   display: inline-flex;
   align-items: center;
-  min-height: 340px;
+  min-height: 150px;
 }
 
 
@@ -59,6 +61,7 @@
 }
 
 .footer_contact{
+  padding-top: 30px;
   div{
     margin-top: 10px;
   }
